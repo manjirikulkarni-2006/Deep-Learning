@@ -1,1 +1,23 @@
+Air Quality CO Forecasting Using LSTM
 
+This project uses a Long Short-Term Memory (LSTM) model to predict Carbon Monoxide (CO) levels from air quality data. The model learns from previous CO values and predicts the next CO value.
+
+Dataset
+
+The project uses the UCI Air Quality Dataset, which contains air quality measurements collected over time. The dataset includes different air pollutants and environmental measurements such as CO, NOx, temperature, humidity, and others.
+For this project, we mainly use the CO(GT) column, which represents the measured Carbon Monoxide concentration. The dataset is downloaded from Kaggle using KaggleHub.
+
+What We Do
+
+1. Download the dataset using KaggleHub.
+2. Clean the CO data and remove missing values (-200).
+3. Normalize the CO values using MinMaxScaler.
+4. Use the previous 24 CO values to predict the next value.
+5. Split the data into 80% training and 20% testing.
+6. Train an LSTM model for 10 epochs.
+7. Predict CO values for the test data.
+8. Evaluate the model using RMSE and MAE.
+9. Plot the training/validation loss and compare actual and predicted CO values.
+
+Result
+The project shows how an LSTM model can be used for time-series forecasting of air quality and CO concentration.
