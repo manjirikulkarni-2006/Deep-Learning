@@ -1,1 +1,27 @@
 
+Iris Flower Classification Using Multi-Layer Perceptron
+
+About the Project
+
+This project uses a Multi-Layer Perceptron neural network to classify iris flowers into different species based on their flower measurements.
+
+Dataset
+
+The project uses the Iris dataset available in Scikit-learn. It contains 150 flower samples from 3 classes: Setosa, Versicolor, and Virginica.
+
+Each sample has 4 features:
+* Sepal length
+* Sepal width
+* Petal length
+* Petal width
+
+What We Do
+
+1. Load the Iris dataset using Scikit-learn.
+2. Split the data into training and testing sets using 80:20 and 90:10 ratios.
+3. Standardize the input features using StandardScaler.
+4. Build an MLP model with two hidden layers containing 10 neurons each.
+5. Train the model and make predictions on the test data.
+6. Evaluate the model using Accuracy, Precision, Recall, and F1 Score.
+7. Display confusion matrices, loss curves, and actual vs predicted graphs.
+8. Compare the results of the 80:20 and 90:10 data splits.
