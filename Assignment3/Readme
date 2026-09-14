@@ -1,1 +1,26 @@
 
+Fashion MNIST Classification Using Neural Network
+
+About the Project
+
+This project uses a simple Neural Network to classify images of clothing items from the Fashion MNIST dataset. The project also studies how learning rate and number of epochs affect model accuracy.
+
+Dataset
+
+Fashion MNIST is a built-in dataset provided by TensorFlow. It contains 70,000 grayscale images of clothing items.
+
+There are 10 classes, such as T-shirt, Trouser, Pullover, Dress, Coat, Sandal, Shirt, Sneaker, Bag, and Ankle Boot.
+
+The images are 28 × 28 pixels and are converted into 784 values before training.
+
+What We Do
+
+1. Load the Fashion MNIST dataset using TensorFlow.
+2. Normalize the pixel values and reshape the images.
+3. Build a neural network with two hidden layers.
+4. Test different learning rates: 0.1, 0.01, and 0.001.
+5. Test different numbers of epochs: 5, 10, and 20.
+6. Train the final model using a learning rate of 0.001 for 20 epochs.
+7. Compare training and validation accuracy and loss.
+8. Evaluate the model using test accuracy.
+9. Display predicted clothing classes and a confusion matrix.
