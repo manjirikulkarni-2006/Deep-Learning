@@ -1,1 +1,26 @@
+Apple Leaf Disease Classification Using CNN
+
+About the Project
+
+This project uses a Convolutional Neural Network (CNN) to identify and classify different diseases in apple leaves from images. The model learns visual features from the leaf images and predicts the disease class.
+
+Dataset
+
+The project uses the Apple Leaf Diseases dataset from Kaggle, downloaded using KaggleHub. The dataset contains images of apple leaves belonging to different disease categories.
+The images are resized to 128 × 128 pixels and divided into 80% training data and 20% validation data.
+
+What We Do
+
+1. Download the apple leaf disease dataset using KaggleHub.
+2. Load the images and automatically detect the disease classes.
+3. Resize the images to 128 × 128 pixels and normalize the pixel values.
+4. Build a CNN model with three convolutional layers and max-pooling layers.
+5. Train the model for 10 epochs.
+6. Check training and validation accuracy and loss.
+7. Generate a classification report to check the model performance for each class.
+8. Create a confusion matrix to see which disease classes are correctly and incorrectly classified.
+
+Result
+
+The project shows how CNN can be used for image classification and automatic detection of diseases in apple leaves.
 
